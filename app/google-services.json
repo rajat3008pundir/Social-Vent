@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "41325960349",
+    "firebase_url": "https://social-vent.firebaseio.com",
+    "project_id": "social-vent",
+    "storage_bucket": "social-vent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41325960349:android:a02e1aaf1bdc10e8",
+        "android_client_info": {
+          "package_name": "com.promotion.socialvent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41325960349-d58fl1fmapsg9clappsr4facnn25i38h.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "41325960349-d58fl1fmapsg9clappsr4facnn25i38h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq3hS05qOVucTgCG_Cz54uKU1kiU1Hf4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

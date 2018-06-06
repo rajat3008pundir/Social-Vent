@@ -6,15 +6,25 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
+    boolean loginState = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        boolean loginState = false;
+        Bundle getLoginState = getIntent().getExtras();
+        loginState = getLoginState.getBoolean("LoginState");
         if(loginState == false){
             Intent gotoLogin = new Intent(this, LoginActivity.class);
             startActivity(gotoLogin);
 
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Bundle getLoginState = getIntent().getExtras();
+        loginState = getLoginState.getBoolean("LoginState");
     }
 }
